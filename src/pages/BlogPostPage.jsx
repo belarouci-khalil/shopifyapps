@@ -6,70 +6,11 @@ import Layout from '../components/layout/Layout';
 const blogPosts = [
   {
     id: 1,
-    title: "How Short Links Can Increase Your Shopify Store's Conversion Rate",
-    excerpt: "Discover how branded short links can significantly boost your store's conversion rates and improve customer experience.",
-    image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-    date: "May 12, 2023",
-    author: "Sarah Johnson",
-    authorImage: "https://randomuser.me/api/portraits/women/44.jpg",
+    title: "Write Shopify Descriptions in Seconds: Your AI-Powered Guide",
+    excerpt: "Boost your Shopify sales with AI-powered product descriptions that speak your customer's language—crafted in seconds, optimized for conversion.",
+    image: "/blog1.png",
     category: "Marketing",
-    readTime: "5 min read",
-    content: `
-      <p class="text-lg mb-4">In today's competitive e-commerce landscape, every click matters. Shopify store owners are constantly looking for ways to optimize their customer journey and increase conversion rates. One often overlooked yet highly effective strategy is the use of branded short links.</p>
-      
-      <h2 class="text-2xl font-bold mt-8 mb-4">Why Short Links Matter for E-commerce</h2>
-      
-      <p class="mb-4">When sharing links across various marketing channels—whether it's social media, email campaigns, or SMS marketing—long, complex URLs can appear unprofessional and suspicious to customers. Short links offer several advantages:</p>
-      
-      <ul class="list-disc list-inside mb-6 space-y-2">
-        <li>They're easier to remember and type</li>
-        <li>They look cleaner in marketing materials</li>
-        <li>They inspire more trust than lengthy URLs with random characters</li>
-        <li>They save valuable space in character-limited platforms</li>
-        <li>They can be branded to reinforce your store's identity</li>
-      </ul>
-      
-      <h2 class="text-2xl font-bold mt-8 mb-4">How LinkLil Boosts Conversion Rates</h2>
-      
-      <p class="mb-4">LinkLil provides Shopify store owners with powerful link management tools specifically designed to increase conversion rates:</p>
-      
-      <h3 class="text-xl font-semibold mt-6 mb-3">1. Custom Branded Domains</h3>
-      <p class="mb-4">Instead of generic short URLs, use your own brand name in links (e.g., yourbrand.link/summer-sale). This reinforces brand recognition and increases click-through rates by up to 34% compared to generic short links.</p>
-      
-      <h3 class="text-xl font-semibold mt-6 mb-3">2. Smart Redirects</h3>
-      <p class="mb-4">Direct users to different landing pages based on their device, location, or time of day. For example, mobile users can be sent to your mobile-optimized pages automatically, reducing bounce rates by creating a smoother user experience.</p>
-      
-      <div class="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
-        <h4 class="font-bold text-lg mb-2">Case Study Highlight:</h4>
-        <p>Fashion retailer BeautifulYou implemented LinkLil's smart redirects in their email campaigns, resulting in a 28% increase in mobile conversions within the first month.</p>
-      </div>
-      
-      <h3 class="text-xl font-semibold mt-6 mb-3">3. Retargeting Pixels Integration</h3>
-      <p class="mb-4">Embed retargeting pixels directly into your short links to capture valuable user data even before they land on your site. This expands your retargeting audience and improves ad effectiveness.</p>
-      
-      <h3 class="text-xl font-semibold mt-6 mb-3">4. A/B Testing Capabilities</h3>
-      <p class="mb-4">Test different landing pages, offers, or messaging by splitting traffic between variations through a single short link. This enables continuous optimization of your conversion funnel.</p>
-      
-      <h2 class="text-2xl font-bold mt-8 mb-4">Best Practices for Using Short Links in Your Shopify Store</h2>
-      
-      <p class="mb-4">To maximize the effectiveness of short links for your Shopify business:</p>
-      
-      <ol class="list-decimal list-inside space-y-2 mb-6">
-        <li>Use consistent branding across all your short links</li>
-        <li>Create memorable slugs for important marketing campaigns</li>
-        <li>Track performance data to identify high-converting channels</li>
-        <li>Include short links in offline marketing materials with QR codes</li>
-        <li>Utilize UTM parameters to track campaign effectiveness</li>
-      </ol>
-      
-      <p class="mb-4">By implementing these strategies with LinkLil's powerful link management platform, Shopify store owners can create a more streamlined, professional customer experience that naturally leads to higher conversion rates.</p>
-      
-      <div class="bg-gray-100 p-6 rounded-lg my-8">
-        <h4 class="font-bold text-lg mb-2">Ready to boost your conversion rates?</h4>
-        <p class="mb-4">Try LinkLil for your Shopify store and start seeing results within days.</p>
-        <a href="https://apps.shopify.com/linklil" class="text-primary font-semibold hover:underline">Install LinkLil on Shopify →</a>
-      </div>
-    `
+    contentUrl: "/blog-content/1.html"
   },
   {
     id: 2,
