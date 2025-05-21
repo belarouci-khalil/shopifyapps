@@ -1,14 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
-import Blog from '../data/Blog.json';
+import BlogData from '../data/Blog.json';
 
 const BlogPage = () => {
   const [activeCategory, setActiveCategory] = React.useState("All");
 
+  // Create an array of blog posts from the Blog.json data
+  const blogPosts = [
+    {
+      id: 1,
+      title: BlogData.title,
+      excerpt: BlogData.sections[0].content,
+      image: "/blog1.png", // Using existing image from public folder
+      category: "Shopify Tips",
+      date: "June 15, 2023",
+      author: "Marketing Team",
+      authorImage: "https://randomuser.me/api/portraits/women/44.jpg"
+    }
+  ];
+
   const categories = ["All", "Shopify Tips", "Product Updates", "Case Studies"];
 
-  const filteredPosts = Blog.filter(post => {
+  const filteredPosts = blogPosts.filter(post => {
     return activeCategory === "All" || post.category === activeCategory;
   });
 

@@ -1,28 +1,49 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
+import BlogData from '../data/Blog.json';
 
-// Sample blog posts data - in a real app, this would come from an API
+// Create blog posts data from Blog.json
 const blogPosts = [
   {
     id: 1,
-    title: "Write Shopify Descriptions in Seconds: Your AI-Powered Guide",
-    excerpt: "Boost your Shopify sales with AI-powered product descriptions that speak your customer's language—crafted in seconds, optimized for conversion.",
-    image: "/blog1.png",
-    category: "Marketing",
-    contentUrl: "/blog-content/1.html"
-  },
-  {
-    id: 2,
-    title: "5 Tips for Optimizing Your Shopify Product URLs for SEO",
-    excerpt: "Learn how to create SEO-friendly links that improve your store's visibility and attract more organic traffic.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80",
-    date: "April 28, 2023",
-    author: "Michael Chen",
-    authorImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    category: "SEO",
-    readTime: "8 min read",
-    content: `<p>Content for this blog post would go here...</p>`
+    title: BlogData.title,
+    excerpt: BlogData.sections[0].content,
+    image: "/blog1.png", // Using existing image from public folder
+    category: "Shopify Tips",
+    date: "June 15, 2023",
+    author: "Marketing Team",
+    authorImage: "https://randomuser.me/api/portraits/women/44.jpg",
+    readTime: "6 min read",
+    content: `
+      <div>
+        ${BlogData.sections.map(section => `
+          <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">${section.heading}</h2>
+            <p class="mb-4">${section.content}</p>
+            ${section.key_points ? `
+              <ul class="list-disc pl-5 mb-4">
+                ${section.key_points.map(point => `<li>${point}</li>`).join('')}
+              </ul>
+            ` : ''}
+            ${section.example ? `
+              <div class="bg-gray-100 p-4 rounded-lg mb-4">
+                <p class="text-red-500 mb-2">❌ ${section.example.bad}</p>
+                <p class="text-green-500">✅ ${section.example.good}</p>
+              </div>
+            ` : ''}
+            ${section.ai_features ? `
+              <div class="bg-blue-50 p-4 rounded-lg mb-4">
+                <h3 class="font-semibold mb-2">AI Features:</h3>
+                <ul class="list-disc pl-5">
+                  ${section.ai_features.map(feature => `<li>${feature}</li>`).join('')}
+                </ul>
+              </div>
+            ` : ''}
+          </section>
+        `).join('')}
+      </div>
+    `
   }
 ];
 
