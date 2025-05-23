@@ -1,0 +1,118 @@
+{
+    "title": "Write Shopify Descriptions in Seconds: Your AI-Powered Guide",
+    "version": "Blog 1 draft 3 — final version",
+    "images": [
+      {
+        "description": "Header image",
+        "filename": "ChatGPT_Image_May_11_2025_06_50_34_PM.png"
+      },
+      {
+        "description": "Section image",
+        "filename": "ChatGPT_Image_May_11_2025_07_00_18_PM.png"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Wanna Speak Your Customer’s Language?",
+        "content": "Your Shopify product descriptions aren’t just about explaining what you sell—they’re about speaking directly to your ideal customer. When you nail this, your conversion rates soar.",
+        "key_points": [
+          "Survey your existing happy customers about why they bought from you",
+          "Check your Shopify dashboard for insights on customer demographics",
+          "Review your best-selling products to spot patterns in what people love",
+          "Listen to the exact language customers use in reviews and questions"
+        ],
+        "ai_features": [
+          "Analyzes customer patterns automatically",
+          "Generates descriptions in customer language"
+        ]
+      },
+      {
+        "heading": "Ready to Turn Specs into “Must-Have” Benefits?",
+        "content": "Listing features without explaining why they matter is a big mistake. Every feature should connect to a real customer benefit.",
+        "example": {
+          "bad": "100% cotton",
+          "good": "100% cotton which means it stays cool and comfortable even on hot summer days"
+        },
+        "ai_features": [
+          "Identifies emotional triggers",
+          "Connects specs to real-life advantages",
+          "Creates mini-stories",
+          "Avoids vague claims"
+        ],
+        "extended_example": {
+          "bad": "high-quality camera",
+          "good": "Capture crystal-clear family moments with the 48MP camera that performs beautifully even in low light—so you never miss those magical bedtime stories."
+        }
+      },
+      {
+        "heading": "Wanna Make Your Descriptions Easy to Scan?",
+        "content": "Shoppers scan only 20% of product text. Descriptions should be short, punchy, and easy to read.",
+        "tips": [
+          "Keep paragraphs ultra-short (2-3 sentences max)",
+          "Use bullet points",
+          "Add subheadings that tell a story",
+          "Include sensory words",
+          "Bold important points"
+        ],
+        "ai_features": [
+          "Structures for maximum scannability",
+          "Highlights key info",
+          "Generates multiple formats: 'Quick Scan' and 'Story'"
+        ]
+      },
+      {
+        "heading": "Ready to Boost Your Search Rankings While Building Trust?",
+        "content": "Descriptions serve SEO and build shopper trust. Balance keyword use and natural language.",
+        "seo_features": [
+          "Keyword research",
+          "Natural integration of primary/secondary keywords",
+          "Meta descriptions",
+          "Unique content to avoid penalties"
+        ],
+        "trust_signals": [
+          "Social proof",
+          "Specific claims with numbers",
+          "Guarantees",
+          "Authentic, hype-free language"
+        ]
+      },
+      {
+        "heading": "Wanna See AI’s Magic in Action? Check This Out",
+        "before_example": "Blue t-shirt. 100% cotton. Machine washable. Available in sizes S-XL.",
+        "after_example": "Slip into pure comfort with this ocean blue tee that pairs perfectly with jeans or shorts for an effortless weekend look. Made from breathable 100% cotton that gets softer with each wash, it’s designed to keep you cool during summer adventures or cozy under fall layers. Machine washable and available in sizes S-XL. Your new go-to shirt for everything from coffee runs to casual Fridays."
+      },
+      {
+        "heading": "Ready to Level-Up Every Product Page?",
+        "content": "With Beauva AI, transform your product pages in minutes.",
+        "features": [
+          "Brand-voice tailored descriptions",
+          "Mobile-friendly",
+          "Multi-language support",
+          "Shopify admin integration",
+          "Customizable templates"
+        ],
+        "pricing": {
+          "free_trial": "First 5 descriptions free",
+          "plans": [
+            {
+              "name": "Basic",
+              "price": "$19/month",
+              "descriptions": 50
+            },
+            {
+              "name": "Pro",
+              "price": "$49/month",
+              "descriptions": 200
+            },
+            {
+              "name": "Enterprise",
+              "price": "Custom pricing",
+              "descriptions": "High-volume needs"
+            }
+          ]
+        },
+        "cta": "Install Beauva AI Description Generator for Shopify and start your free trial today!"
+      }
+    ]
+  }
+  
