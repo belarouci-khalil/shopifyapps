@@ -1,0 +1,102 @@
+{
+    "privacy_policy": {
+      "last_updated": "2025-06-02",
+      "introduction": {
+        "description": "This Privacy Policy describes how Aurra collects, uses, and discloses your personal information when you use our services or visit aurrapps.com.",
+        "agreement_notice": "By using our Services, you agree to the terms of this Privacy Policy. If you do not agree, please do not use our Services."
+      },
+      "changes_to_policy": {
+        "description": "We may update this Privacy Policy periodically and will update the 'Last updated' date accordingly."
+      },
+      "information_collection": {
+        "overview": "We collect personal information to provide and improve our Services, comply with legal obligations, and protect our rights.",
+        "sources": ["Directly from you", "Through cookies", "From third parties"],
+        "types": {
+          "direct": [
+            "Name",
+            "Address",
+            "Phone number",
+            "Email address",
+            "Billing and shipping addresses",
+            "Payment confirmation",
+            "Username and password",
+            "Shopping activity",
+            "Customer support communication"
+          ],
+          "cookies_usage": [
+            "Device information",
+            "Browser details",
+            "Network connection info",
+            "IP address",
+            "User interaction data"
+          ],
+          "third_party_sources": [
+            "Shopify (Site and service support)",
+            "Payment processors (e.g., billing and payment info)",
+            "Marketing and analytics partners"
+          ]
+        }
+      },
+      "use_of_information": {
+        "purposes": [
+          "To provide and fulfill services and transactions",
+          "To send notifications and manage your account",
+          "To arrange shipping and handle returns",
+          "To send promotional and marketing materials",
+          "To improve advertising relevance",
+          "To detect and prevent fraud",
+          "To provide customer support"
+        ]
+      },
+      "cookies": {
+        "description": "We use cookies and similar technologies for analytics, personalization, and advertising.",
+        "management": "Users can manage cookies through browser settings, but blocking cookies may impact user experience.",
+        "shopify_cookie_policy": "https://www.shopify.com/legal/cookies"
+      },
+      "disclosure_of_information": {
+        "conditions": [
+          "With service providers (e.g., IT, payment, support)",
+          "With business and marketing partners",
+          "With affiliates or corporate entities",
+          "When required by law (e.g., subpoenas, legal processes)",
+          "In business transactions like mergers or acquisitions",
+          "With your consent or direction"
+        ],
+        "shared_categories_last_12_months": {
+          "personal_information": [
+            "Identifiers (name, contact, account info)",
+            "Commercial info (order/shopping data)",
+            "Internet/network activity (usage data)"
+          ],
+          "recipients": [
+            "Service providers",
+            "Marketing partners",
+            "Affiliates"
+          ]
+        },
+        "sales_and_sharing": {
+          "sold_or_shared_data": [
+            "Identifiers",
+            "Commercial information",
+            "Internet activity"
+          ],
+          "recipients": ["Business and marketing partners"]
+        },
+        "sensitive_information": {
+          "used_for_inference": false
+        }
+      },
+      "user_generated_content": {
+        "description": "User-generated content (e.g., product reviews) is public. We are not responsible for privacy or misuse of publicly shared content."
+      },
+      "third_party_links": {
+        "description": "We may link to third-party websites. We are not responsible for their privacy practices or the accuracy of their content."
+      },
+      "powered_by": "Shopify (https://www.shopify.com)",
+      "children_data": {
+        "policy": "Our services are not intended for children, and we do not knowingly collect data from them.",
+        "parent_action": "Parents can contact us to delete any data submitted by a child."
+      }
+    }
+  }
+  

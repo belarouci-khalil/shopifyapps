@@ -48,7 +48,7 @@ const HomePage = () => {
       <footer className="w-full flex flex-col items-center justify-center pb-8 pt-8 relative bg-transparent z-10">
         <img src="/auralogo.png" alt="Aura Logo" className="h-10 mb-2" />
         <div className="text-white text-center font-medium mb-2">Elevate Your Store's Aura with AI</div>
-        <a href="#" className="underline text-white hover:text-primary text-sm mb-2 text-center block">Privacy Policy</a>
+        <a href="/privacy-policy" className="underline text-white hover:text-primary text-sm mb-2 text-center block">Privacy Policy</a>
         <div className="absolute left-4 bottom-2 text-white text-xs">© 2025 AurApps®. All rights reserved.</div>
       </footer>
     </div>

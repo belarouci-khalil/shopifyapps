@@ -5,7 +5,7 @@ import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import { Helmet } from 'react-helmet-async';
 import './index.css';
-
+import PrivacyPolicyPage from './pages/privacy-policy';
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<BlogPostPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       </Routes>
     </>
   );
