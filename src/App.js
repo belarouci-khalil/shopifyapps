@@ -5,7 +5,11 @@ import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import { Helmet } from 'react-helmet-async';
 import './index.css';
+<<<<<<< HEAD
 
+=======
+import PrivacyPolicyPage from './pages/privacy-policy';
+>>>>>>> ali
 function App() {
   return (
     <>
@@ -17,6 +21,10 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<BlogPostPage />} />
+<<<<<<< HEAD
+=======
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+>>>>>>> ali
       </Routes>
     </>
   );
