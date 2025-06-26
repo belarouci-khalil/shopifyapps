@@ -1,22 +1,5 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
-<<<<<<< HEAD
-import HeroSection from '../components/sections/HeroSection';
-import FeaturesSection from '../components/sections/FeaturesSection';
-import TestimonialsSection from '../components/sections/TestimonialsSection';
-import BlogSection from '../components/sections/BlogSection';
-import CTASection from '../components/sections/CTASection';
-
-const HomePage = () => {
-  return (
-    <Layout>
-      <HeroSection />
-      <FeaturesSection />
-      <TestimonialsSection />
-      <BlogSection />
-      <CTASection />
-    </Layout>
-=======
 
 const HomePage = () => {
   return (
@@ -38,7 +21,7 @@ const HomePage = () => {
           </h2>
           <div className="flex flex-col space-y-6 w-full">
             <a
-              href="#"
+              href="/product"
               className="border-2 border-black rounded-lg px-8 py-6 bg-white shadow-[4px_4px_0_0_rgba(0,0,0,1)] transition-transform hover:translate-y-1 hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]"
             >
               <div className="text-xl font-bold text-center">Aura Ai Description</div>
@@ -52,7 +35,7 @@ const HomePage = () => {
               <div className="text-gray-500 text-center text-base mt-1">Tips, trends & tactics</div>
             </a>
             <a
-              href="#"
+              href="/about"
               className="border-2 border-black rounded-lg px-8 py-6 bg-white shadow-[4px_4px_0_0_rgba(0,0,0,1)] transition-transform hover:translate-y-1 hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]"
             >
               <div className="text-xl font-bold text-center">About</div>
@@ -69,7 +52,6 @@ const HomePage = () => {
         <div className="absolute left-4 bottom-2 text-white text-xs">© 2025 AurApps®. All rights reserved.</div>
       </footer>
     </div>
->>>>>>> ali
   );
 };
 

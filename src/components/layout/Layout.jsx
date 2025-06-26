@@ -1,9 +1,5 @@
 import React from 'react';
 import Header from './Header';
-<<<<<<< HEAD
-import Footer from './Footer';
-=======
->>>>>>> ali
 
 const Layout = ({ children }) => {
   return (
@@ -12,10 +8,6 @@ const Layout = ({ children }) => {
       <main className="flex-grow pt-20">
         {children}
       </main>
-<<<<<<< HEAD
-      <Footer />
-=======
->>>>>>> ali
     </div>
   );
 };
